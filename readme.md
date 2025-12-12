@@ -1,4 +1,4 @@
-Projest 2 Readme eeg 
+<img width="468" height="64" alt="image" src="https://github.com/user-attachments/assets/8f23d396-f327-4dca-8c88-88e0f8f95bed" />Projest 2 Readme eeg 
 Version 1 9/11/24
 A single copy of this template should be filled out and submitted with each project submission, regardless of the number of students on the team. It should have the name readme_”teamname”
 Also change the title of this template to “Project x Readme Team xxx”
@@ -32,6 +32,9 @@ palindrom.csv	-	Test case used – aaaaaa with max_depth 100
 
 equal_10s.csv	-	Test case used – $0101010101
 
+composite.csv	-	Test case used - 111111 accept 11111 reject
+
+
 Output Files
 None – output prints to terminal	
 Plots (as needed)
@@ -40,6 +43,7 @@ Plots (as needed)
  	Screenshot of aplus
 
  	Screenshot of palindrome
+	Screenshot of composite
 
 8	Programming languages used, and associated libraries:
 Python
