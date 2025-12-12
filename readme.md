@@ -82,6 +82,11 @@ The complexity and depth test – palindrom.csv
 -	Why this test: requires zig zag movement creates a VERY deep execution tree. Stress test the BFS loop and the max_depth parameter
 -	Initially, this test failed (timed out) at 20 steps, which revealed that my BFS was working but simply needed more depth for complex algorithms. I increased the depth to 100 which allowed it to finish
 
+The unary logic test - composite.csv
+-	Test case use - 111111 accept and 11111 reject
+-	Why this test; This machine recognizes a unary language (strings consisting only of '1's) where the length is composite (specifically an even number greater than 2). I used this to verify that the simulator could handle state loops designed to count or check parity (odd/even logic) without needing distinct markers on the tape.
+-	Told me my BFS could successfully recognize a unary language
+
 12	How you managed the code development
 
 First, I started going step by step through the TODO section steps. Thankfully, they were very clearly layed out (up until step 6). The first 5 steps explain what we are supposed to do in great detail and allowed me to get a feel for what I was going to have to do/which variables I needed to keep track of for the future. When it came time for step 6, I started on a large scale and slowly iterated my approach until it worked! This was when I had to pull out a paper and pen a few times to actually draw out what was happening on the tape to understand where I was going wrong. I used the testcases and MANY print statements to debug my logic. I had a few issues with how I was reading/accessing the input files, but once that was resolved, the logic was sound and my program worked!
